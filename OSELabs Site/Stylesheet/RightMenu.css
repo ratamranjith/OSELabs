@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+.rightMenu{
+	margin-top:100px;
+	width:125px;
+	overflow:auto;
+	height:400px;
+	background-color:#FFFFFF;
+	position:fixed;
+}
+@media screen and (max-width:500px) {
+.rightMenu{
+	display:none;
+}
+
+}
